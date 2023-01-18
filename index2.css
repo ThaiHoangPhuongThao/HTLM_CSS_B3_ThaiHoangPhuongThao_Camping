@@ -1,0 +1,169 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.header{
+    background-color: #f8e1db;
+    padding: 20px 80px;
+}
+.header .nav{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner{
+    background-image: url(./Img/BG.png);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ACTIVITIES */
+.activities {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #faf4f2;
+}
+.activities__item {
+    width: 25%;
+    float: left;
+   
+    overflow: hidden;
+    padding: 20px;
+}
+.activities__item img {
+    width: 100%;
+    border-radius: 16px;
+}
+.activities__container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+}
+.activities__img {
+    position: relative;
+}
+.img_heart {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(250, 250, 250,0.3);
+    line-height: 50px;
+    border-radius: 16px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.img_heart i {
+    color: #e76f51;
+    
+}
+
+.activities__desc {
+    margin: 20px 0;
+}
+.activities__desc p{
+    margin: 20px;
+}
+
+.activities__desc button {
+    border: none;
+    border-radius: 32px;
+    padding: 10px 25px;
+    background-color: rgb(226, 231, 231);
+}
+.view__all button{
+    border-radius: 32px;
+    padding: 10px 50px;
+    color: #e76f51;
+    border-color: #e76f51;
+    background-color: #faf4f2;
+    margin-top: 20px;
+}
+
+/* END ACTIVITIES */
+ /* Start CONTACT */
+ .contact__img, .contact__detail {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: #f8e1db;
+
+ }
+ .contact__detail{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius:16px ;
+ }
+ .contact__img{
+    background-image: url(./Img/mask.png);
+    background-size: cover;
+    padding: 20px;
+ }
+ .contact__img img {
+    height: 100%;
+ }
+ .contact__detail {
+padding: 40px;
+ }
+ .down__app, .follow {
+    width: 34.7%;
+    float: left;
+    margin-top: 50px;
+ }
+ .follow i{
+    font-size: 23px;
+    color: #e76f51;
+ }
+ /* END CONTACT */
+ /* FOOTER */
+ .footer {
+    background-color: #f8e1db;
+    border-top-left-radius:32px ;
+    border-top-right-radius: 32px;
+    height: 310px;
+    padding-top: 50px;
+    margin-top: 80px;
+ }
+ .footer__text {
+    width: 40%;
+    float: left;
+    
+ }
+ .footer__list {
+    width: 60%;
+    float: left;
+ }
+ .iterm {
+    width: 30%;
+    float: left;
+ }
+ .bold{
+    font-weight: bold;
+    
+ }
+ .footer .bold{
+    padding: 20px 0;
+ }
+ .footer .nomal {
+    padding: 3px 0;
+ }
+ .iterm ul{
+    list-style: none;
+ }
+ .end {
+    text-align: center;
+    margin-top:25px ;
+ }
